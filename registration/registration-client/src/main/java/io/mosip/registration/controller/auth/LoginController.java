@@ -421,7 +421,8 @@ public class LoginController extends BaseController implements Initializable {
 
 	private void initialSetUpOrNewUserLaunch() {
 		userIdPane.setVisible(false);
-		loadLoginScreen(LoginMode.PASSWORD.toString());
+		//loadLoginScreen(LoginMode.PASSWORD.toString());
+		loadLoginScreen("FACE");
 	}
 
 	/**
